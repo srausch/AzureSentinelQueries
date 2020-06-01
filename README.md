@@ -1,2 +1,2 @@
 # AzureSentinelQueries
-A collection of useful KQL queries for Azure Sentinel
+A collection of useful KQL queries and links to the sources for Azure Sentinel
