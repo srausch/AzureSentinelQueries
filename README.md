@@ -1,12 +1,12 @@
 # AzureSentinelQueries
-A collection of useful KQL queries and links to the sources for Azure Sentinel
+A collection of useful KQL queries and links to the source for Azure Sentinel
 
 ## Azure Security Center Alert Queries
 https://azsec.azurewebsites.net/2019/11/29/work-with-azure-security-center-alert-in-log-analytics/
 
 Count the total number of alerts for the past 24 hours
 ```
-Security Alert
+SecurityAlert
 | where TimeGenerated >=ago(24h)
 | count
 ```
